@@ -24,3 +24,5 @@ export const fireStoreApi = createApi({
         })
     })
 });
+
+export const { useFetchDataFromDbQuery } = fireStoreApi;
